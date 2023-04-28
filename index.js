@@ -182,3 +182,7 @@ document.querySelector('#submit').addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+document.getElementById('blog').addEventListener('click', function () {
+  window.location.href = "answers.html";
+});

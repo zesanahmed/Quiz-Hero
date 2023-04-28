@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions and answers</title>
+</head>
+
+<body>
+    <header>
+        <h1>Question and answer</h1>
+    </header>
+    <main>
+        <div>
+            <h3> Question-1: Differences of map,forEach,filter and find?</h3>
+            <h4>Ans-1:</h4>
+            <p> map:
+                The map() method creates a new array populated with the results of calling a provided function on
+                every
+                element in the calling array.</p>
+            <p>
+                forEach:
+                The forEach() method is an iterative method. It calls a provided callbackFn function once for each
+                element in an array in ascending-index order.
+            </p>
+            <p>filter:
+                The filter() method creates a shallow copy of a portion of a given array, filtered down to just the
+                elements from the given array that pass the test implemented by the provided function.
+            </p>
+            <p>
+                find:
+                The find() method returns the first element in the provided array that satisfies the provided testing
+                function.
+            </p>
+        </div>
+
+        <div>
+            <h3> Question-2: Differences of local storage, session storage and cookies ?
+            </h3>
+            <h4>Ans-2:</h4>
+            <p>
+                Local-storages:
+                It allows for larger amounts of data to be stored, but the data is not deleted when the browser is
+                closed. Local storage is useful for storing data that the user will need to access later, such as
+                offline data.
+            </p>
+            <p>Session-storage:
+                It only stored for the current session. This means that the data will be deleted when the user closes
+                the browser.
+            </p>
+            <p>
+                Cookies:
+                Cookies are the oldest and most well-known mechanism. They are simple to use and well supported by
+                browsers. However, they are limited to 4KB of data and are often used to store data that is not
+                sensitive, such as user preferences.
+            </p>
+        </div>
+        <div>
+            <h3> Question-3: What is Event-loop ? and how does it work?
+            </h3>
+            <h4>Ans-3:</h4>
+            <p>
+                Event-loop:
+                The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
+                a
+                single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
+                <br>
+                The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a
+                function is finished, it is popped from the stack.
+                <br>
+                The event queue is responsible for sending new functions to the stack for processing. It follows the
+                queue data structure to maintain the correct sequence in which all operations should be sent for
+                execution.
+            </p>
+        </div>
+        <h1>Quiz question</h1>
+        <div>
+            <h3>What does work quiz-timer-function?</h3>
+            <h4>Ans:</h4>
+            <p>
+                quiz-timer-function count user answers time. User have 60 seconds to answer 6 questions.
+            </p>
+        </div>
+        <div>
+            <h3>What does work choose-quiz-function?</h3>
+            <h4>Ans:</h4>
+            <p>
+                When user gives answer this function take the answer and show selected option number on display. It take
+                the user answer and match it with correct answer and give the user answer then the correct answer. and
+                it gives 10 marks for each correct answer.
+            </p>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
